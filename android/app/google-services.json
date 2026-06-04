@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "895427829704",
+    "project_id": "energy-clicker-4b1fb",
+    "storage_bucket": "energy-clicker-4b1fb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895427829704:android:b2f3cfed74db293740eafd",
+        "android_client_info": {
+          "package_name": "com.example.energy_clicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895427829704-gkk87l971lr9otc9npu5gc4jjqk8qt7p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGtkBtCreVHmj6OllCXY0L0HhAead2Yds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895427829704-gkk87l971lr9otc9npu5gc4jjqk8qt7p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
