@@ -1,3 +1,154 @@
+
+# Energy Clicker
+
+Energy Clicker is a clicker game developed with **Flutter**.
+
+The goal is simple: click to generate energy, buy upgrades, increase your earnings per click and per second, and progress further and further.
+
+The game is designed to run on:
+
+* Windows
+* Android
+
+## Features
+
+* Main click system
+* Purchasable upgrades
+* Earnings per click
+* Automatic earnings per second
+* Global multiplier
+* Visual effects with lightning bolts
+* Local save
+* Cloud synchronization with Firebase
+* Login via email/password
+* Admin menu to change the currency and quickly test the game
+* Display of large numbers with K, M, B, T, etc.
+
+## Technologies used
+
+* Flutter
+* Dart
+* Firebase Auth
+* Cloud Firestore
+* Shared Preferences
+
+## Project Installation
+
+To launch the project, you must have Flutter installed on your PC.
+
+Clone the project:
+
+```bash
+git clone https://github.com/RealLongName/energyclicker.git
+cd energyclicker
+```
+
+Install the dependencies:
+
+```bash
+flutter pub get
+```
+
+Launch the game on Windows:
+
+```bash
+flutter run -d windows
+```
+
+Launch the game on Android:
+
+```bash
+flutter run -d <YOUR_PHONE_ID>
+```
+
+Example:
+
+```bash
+flutter run -d RFCW40CGMWY
+```
+
+## Build Windows
+
+To create a Windows version:
+
+```bash
+flutter build windows
+```
+
+The build file will then be located in:
+
+```txt
+build/windows/x64/runner/Release
+```
+
+## Build Android APK
+
+To create an Android APK :
+
+```bash
+flutter build apk
+```
+
+The APK can then be found in:
+
+```txt
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+## Firebase
+
+The game uses Firebase for:
+
+* Account authentication;
+
+* Cloud saves;
+
+* Synchronization between Windows and Android.
+
+The services used are:
+
+* Firebase Authentication
+* Cloud Firestore
+
+## Progression
+
+Player progress is saved with:
+
+* A local save on the device;
+
+* A cloud save if the player is connected.
+
+## Project Status
+
+The game is still in development.
+
+Improvements may be added later, such as:
+
+* More improvements;
+
+* Prestige/Rebirth;
+
+* Achievements;
+
+* Shop;
+
+* Advanced visual effects;
+
+* Improved menus;
+
+* Skin system;
+
+* Public Android APK version.
+
+## Author
+
+Project created by **LongName**.
+
+
+
+
+
+
 # Energy Clicker
 
 Energy Clicker est un jeu de clicker développé avec **Flutter**.
@@ -129,4 +280,4 @@ Des améliorations peuvent être ajoutées plus tard, comme :
 
 ## Auteur
 
-Projet créé par **RealLongName**.
+Projet créé par **LongName**.
